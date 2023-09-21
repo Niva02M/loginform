@@ -1,0 +1,18 @@
+database- csit
+table -login
+id int pk ai
+uname varchar 100 unique
+pwd varchar 100
+email varchar 100
+dob date 
+photo varchar 100
+
+
+htdocs:
+webtech
+-login form
+    -register.php action saveUser.php
+    -saveUser.php
+    -redirect to login.php action checkUser.php
+    -checkUser.php
+    -redirect to home.php
