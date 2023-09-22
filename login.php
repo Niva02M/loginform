@@ -3,6 +3,9 @@
     if(isset($_GET['lgn'])){
         echo "Registration Successful! Please Login";
     }
+    if(isset($_GET['lgt'])){
+        echo "You have been logged out! Please Login";
+    }
 
 ?>
 <form method="post" action="checkUser.php">
